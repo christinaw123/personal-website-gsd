@@ -1,0 +1,17 @@
+Final Project:
+
+Instructions:
+p5js file is attached and images can be replaced for merging of different people/animals/images
+
+Future Implementations/Improvements:
+1. Live Time Positioning - Finishing the live time application; Positioning sample images properly on top of face region to blend 
+2. Facial Recognition - Using a mesh instead of a box so that the blur effect becomes more accurate and is applied only to the face(shape of face not box)
+3. Non-Human - Making transitions to animals smoother
+4. Live Projections - Creating an interactive projection wall where people can see their full body turn into pixels and reincarnate as something/someone else
+5. Technical Efficiency  - Improving code for more efficiency and less expensive for ease of image manipulation
+
+Conclusion:
+Seeing someone’s face deconstruct was subtly off-putting and we realized if we deconstruct one’s whole body, it could be even more unsettling/a reality check. Transitions need to be flawless to feel real and with the different shapes of people and animals, that’s why physical reincarnation is hard to imagine. To embody a fully immersive visual experience of reincarnation, using projections in a dark room would be ideal and allow viewers to really see the fragility of their bodies
+
+Website Template Guide used: https://themewagon.com/themes/free-responsive-personal-portfolio-template-download-minimus/
+
