@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/addons/p5.sound.min.js"></script>
+    <title>Vj Loop</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!-- Fonts-->
+		<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/fonts/pe-icon/pe-icon.css">
+		<!-- Vendors-->
+		<link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/grid.css">
+		<link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/vendors/swiper/swiper.css">
+		<!-- App & fonts-->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700">
+		<link rel="stylesheet" type="text/css" id="app-stylesheet" href="assets/css/main.css"><!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<![endif]-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="libraries/p5.min.js"></script> -->
+    <script src="libraries/p5.sound.min.js"></script>
+
+    <style>
+      body {
+        background-color: yellow;
+        display: flex;
+        height: 100vh;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      #buttons{
+        position: absolute;
+        top: 0; /* Align buttons to the top */
+        left: 0; /* Align buttons to the left */
+        display: flex;
+        flex-direction: column; /* Arrange buttons vertically */
+        gap: 10px; /* Add some space between buttons */
+        padding-left: 20px;
+        padding-top: 30px;
+      }
+      #canvas-container{
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center; /* Vertically center the content */
+      }
+      canvas {
+        /* border: 2px solid white; */
+        display: block;
+      }
+    </style>
+
+  </head>
+  <body>
+    <main>
+      <div id="buttons">
+        <button class = md-btn--sm id="sunShaderButton">Shader 1</button>
+        <button class = md-btn--sm id="flower1ShaderButton">Shader 2</button>
+        <button class = md-btn--sm id="flower2ShaderButton">Shader 3</button>
+        <button class = md-btn--sm id="flowShaderButton">Shader 4</button>
+        <button class = md-btn--sm id="PlayButton">Play</button>
+        <button class = md-btn--sm id="PauseButton">Pause</button>
+      </div>
+    </main>
+    <script src="vjloopsketch.js"></script>
+  </body>
+</html>
