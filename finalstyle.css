@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Baskerville';
+    src: url('Baskerville-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('Barlow-Regular.ttf') format('truetype');
+}
+
+.title {
+    font-family: 'Baskerville', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: normal;
+    padding-bottom: 10px;;
+}
+
+body {
+    background-color: #191919;
+    color: #fff;
+    font-family: 'Barlow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Baskerville', serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    position: relative;
+}
+
+.container h2::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    transform: translateY(-50%);
+}
+
+.container h2::before{
+    left: -60px;
+}
+
+h2{
+    font-family: 'Baskerville';
+    font-weight: normal;
+    font-size: 40px;
+    text-align: justify;
+}
+
+p {
+    font-family: 'Barlow';
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+.subtitle {
+    font-family: 'Barlow';
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff6b65;
+}
+
+.divider {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+.container .artist-manifesto {
+    font-weight: normal;
+}
+
+.container .artist-manifesto .bold-text {
+    font-weight: bold;
+    color: #ff6b65;
+}
+
+.container img.making-process {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    width: 150%;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.code-container {
+    text-align: center;
+}
+
+.video-container iframe,
+.code-container iframe {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image img {
+    width: 48%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.making-process {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    width: 80%;
+}
